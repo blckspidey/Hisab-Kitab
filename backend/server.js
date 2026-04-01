@@ -120,7 +120,7 @@ cron.schedule("* * * * *", async () => {
 
 // 💤 Later, switch to once daily at midnight:
 // cron.schedule("0 0 * * *", async () => {
-//   console.log("🌙 Running daily recurring transaction generator...");
+//   console.log("🌙 Running daily recurring transaction generator..");
 //   await generateDueTransactions();
 // });
 
