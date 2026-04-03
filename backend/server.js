@@ -40,10 +40,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
-  "http://localhost:5175",
-  "https://bento-tracks.netlify.app",
-  "https://deploy-preview--bento-tracks.netlify.app",
-  "https://bento-pa09.onrender.com"
+  "http://localhost:5175"
 ];
 
 
