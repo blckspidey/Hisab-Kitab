@@ -1,6 +1,6 @@
-# Hisab-Kitab
+# Budget-Bee
 
-Hisab-Kitab is a **full-stack personal finance management app** built with **React (frontend), Node.js/Express (backend), MongoDB (database)**, and enhanced with **Google Gemini AI for OCR-based receipt scanning**. It helps users track income, expenses, receipts, and visualize financial analytics via charts.
+Budget-Bee is a **full-stack personal finance management app** built with **React (frontend), Node.js/Express (backend), MongoDB (database)**, and enhanced with **Google Gemini AI for OCR-based receipt scanning**. It helps users track income, expenses, receipts, and visualize financial analytics via charts.
 
 ## Features
 
@@ -35,7 +35,7 @@ Hisab-Kitab is a **full-stack personal finance management app** built with **Rea
 
 * Frontend → Netlify
 * Backend → Render
-* Database → MongoDB Atlas (Hisab-Kitab database)
+* Database → MongoDB Atlas (Budget-Bee database)
 
 ### Project Structure
 
@@ -90,7 +90,6 @@ Hisab-Kitab is a **full-stack personal finance management app** built with **Rea
 │   ├── Dockerfile
 │   ├── eslint.config.js
 │   ├── index.html
-│   ├── nginx.conf
 │   ├── package-lock.json
 │   ├── package.json
 │   ├── postcss.config.js
@@ -115,7 +114,7 @@ Before cloning, make sure to fork the repository to your GitHub account.
 
 ```bash
 git clone 
-cd Hisab-Kitab
+cd Budget-Bee
 ```
 
 ### Backend Setup
@@ -129,7 +128,7 @@ Create a **`.env`** file in the `backend/` folder:
 
 ```env
 PORT=5000
-MONGO_URI=your-mongodb-atlas-uri/hisab-kitab
+MONGO_URI=your-mongodb-atlas-uri/Budget-Bee
 JWT_SECRET=your-secret-key
 GEMINI_API_KEY=your-gemini-api-key
 KEEP_ALIVE_URL=http://localhost:5000
@@ -144,7 +143,7 @@ SMTP_SECURE=false
 SMTP_USER=your-smtp-username
 SMTP_PASS=your-smtp-password
 # Optional sender; defaults to SMTP_USER if omitted
-SMTP_FROM="Hisab-Kitab <no-reply@example.com>"
+SMTP_FROM="Budget-Bee <no-reply@example.com>"
 ```
 
 Start the backend:
